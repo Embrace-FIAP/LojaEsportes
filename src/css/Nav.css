@@ -1,3 +1,38 @@
 .navBar {
-    background-color: var(--color1);
+    background-color: var(--color4);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    filter: drop-shadow(0px 1px 1px var(--color3));
+}
+
+.navLink {
+    text-decoration: none;
+    color: var(--color5);
+    font-size: 20px;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+.navLink:hover {
+    transform: scale(1.1);
+    color: var(--color1);
+}
+
+.logo {
+    position: absolute;
+    margin-block: 2vh;
+    left: 8%;
+    background-color: var(--color4);
+    color: var(--color1);
+    border-radius: 5px;
+}
+
+.logoImg {
+    position: absolute;
+    width: 32px;
+    margin-block: 2vh;
+    left: 5%;
 }

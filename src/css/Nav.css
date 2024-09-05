@@ -6,7 +6,7 @@
     align-items: center;
     gap: 8%;
     filter: drop-shadow(0px 2px 1px var(--color3));
-    position: absolute;
+    position: fixed;
     z-index: 100;
     width: 100%;
 }

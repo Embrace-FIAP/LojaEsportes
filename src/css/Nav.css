@@ -1,24 +1,35 @@
 .navBar {
-    background-color: var(--color4);
-    height: 10vh;
+    background-color: var(--color1);
+    height: 9vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10%;
-    filter: drop-shadow(0px 1px 1px var(--color3));
+    gap: 8%;
+    filter: drop-shadow(0px 2px 1px var(--color3));
 }
 
 .navLink {
     text-decoration: none;
-    color: var(--color5);
-    font-size: 20px;
-    font-weight: 700;
+    position: relative;
+    color: var(--font-color1);
+    font-size: 18px;
+    font-weight: 500;
     transition: 0.2s;
 }
 
-.navLink:hover {
-    transform: scale(1.1);
-    color: var(--color1);
+.navLink::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: var(--font-color1);
+    transition: 0.4s;
+}
+
+.navLink:hover::after {
+    width: 100%;
 }
 
 .logo {
@@ -32,7 +43,56 @@
 
 .logoImg {
     position: absolute;
-    width: 32px;
+    width: 40px;
     margin-block: 2vh;
     left: 5%;
+}
+
+.searchBox {
+    position: absolute;
+    right: 20vh;
+    background-color: var(--color5);
+    border: none;
+    padding: 12px;
+    border-radius: 22px;
+    display: flex;
+    gap: 10px;
+    filter: drop-shadow(0px 2px 0px var(--color2));
+    transition: 0.3s;
+}
+
+.searchBox:hover {
+    transform: scale(1.04);
+}
+
+.searchInput {
+    border: none;
+    background-color: var(--color5);
+}
+
+.searchImg {
+    width: 18px;
+}
+
+.navBuy {
+    position: absolute;
+    right: 7vh;
+    display: flex;
+    gap: 30px;
+}
+
+.coracaoImg {
+    width: 26px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.carrinhoImg {
+    width: 28px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.coracaoImg:hover, .carrinhoImg:hover {
+    transform: scale(1.1);
 }

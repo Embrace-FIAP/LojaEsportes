@@ -23,6 +23,15 @@ const Home = () => {
                         Ver Coleção
                     </button>
                 </Link>
+
+                <h3 className='heading3'>WIN Boxing</h3>
+                <h1 className='heading1'>A Nobre Arte</h1>
+                <p className='text'>Viver significa lutar.</p>
+                <Link to='/produtos'>
+                    <button className='btnColecao'>
+                        Ver Coleção
+                    </button>
+                </Link>
                 
             </div>
         </>

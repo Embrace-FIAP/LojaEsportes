@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     gap: 8%;
-    filter: drop-shadow(0px 2px 1px var(--color3));
+    /* filter: drop-shadow(0px 2px 1px var(--color3)); */
     position: fixed;
     z-index: 100;
     width: 100%;
@@ -68,10 +68,6 @@
     background-color: var(--color5);
 }
 
-.searchBox:hover > .searchInput {
-    background-color: var(--color2);
-}
-
 .searchImg {
     width: 18px;
 }
@@ -97,4 +93,27 @@
 
 .coracaoImg:hover, .carrinhoImg:hover {
     transform: scale(1.1);
+}
+
+.adBar {
+    background-color: var(--color2);
+    color: var(--font-color2);
+    position: absolute;
+    z-index: 11;
+    top: 9vh;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+}
+
+.adHeading {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.adLink {
+    color: var(--font-color1);
 }

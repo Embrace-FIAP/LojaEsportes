@@ -1,0 +1,84 @@
+.produtos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 20vh;
+    width: 100%;
+    min-height: 90vh;
+    background-color: var(--color1);
+}
+
+.sectionHeading {
+    margin-bottom: 5vh;
+    font-weight: 500;
+}
+
+.cardSection {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    flex-wrap: nowrap;
+    margin-bottom: 20vh;
+}
+
+.card {
+    background-color: var(--color5);
+    width: 300px;
+    height: 300px;
+    /* filter: drop-shadow(1px 1px 2px var(--color3)); */
+    border: 1px solid var(--color2);
+}
+
+.cardTitle {
+    position: absolute;
+    font-weight: 500;
+    font-size: 17px;
+    top: 62%;
+    color: var(--font-color2);
+}
+
+.cardSubtitle {
+    position: absolute;
+    top: 65%;
+    color: var(--font-color1);
+}
+
+.cardPrice {
+    position: absolute;
+    top: 68%;
+    color: var(--font-color2);
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.card2 {
+    background-color: var(--color5);
+    width: 300px;
+    height: 300px;
+    /* filter: drop-shadow(1px 1px 2px var(--color3)); */
+    border: 1px solid var(--color2);
+    margin-bottom: 10vh;
+}
+
+.cardTitle2 {
+    position: absolute;
+    font-weight: 500;
+    font-size: 17px;
+    bottom: -15.5%;
+    color: var(--font-color2);
+}
+
+.cardSubtitle2 {
+    position: absolute;
+    bottom: -18.5%;
+    color: var(--font-color1);
+}
+
+.cardPrice2 {
+    position: absolute;
+    bottom: -21.5%;
+    color: var(--font-color2);
+    font-weight: 500;
+    font-size: 17px;
+}

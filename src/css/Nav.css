@@ -37,18 +37,18 @@
 
 .logo {
     position: absolute;
-    margin-block: 2vh;
-    left: 8%;
-    background-color: var(--color4);
-    color: var(--color1);
-    border-radius: 5px;
+    top: 20px;
+    left: 5.4%;
+    color: var(--font-color2);
+    font-size: 42px;
+    font-weight: 500;
 }
 
 .logoImg {
     position: absolute;
     width: 50px;
     margin-block: 2vh;
-    left: 5%;
+    left: 2.7%;
 }
 
 .searchBox {

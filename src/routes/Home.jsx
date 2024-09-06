@@ -2,6 +2,8 @@ import React from 'react'
 import '../css/Base.css'
 import '../css/Home.css'
 import Video from '../assets/homevideo.mp4'
+import Boxe from '../assets/boxead.jpg'
+import Corrida from '../assets/runad.jpg'
 import { Link } from 'react-router-dom'
 
 const Home = () => {
@@ -23,6 +25,9 @@ const Home = () => {
                         Ver Coleção
                     </button>
                 </Link>
+                <img src={Corrida} className='runAd' />
+
+                <div className='line'></div>
 
                 <h3 className='heading3'>WIN Boxing</h3>
                 <h1 className='heading1'>A Nobre Arte</h1>
@@ -32,6 +37,7 @@ const Home = () => {
                         Ver Coleção
                     </button>
                 </Link>
+                <img src={Boxe} className='boxeAd' />
                 
             </div>
         </>

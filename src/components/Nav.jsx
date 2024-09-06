@@ -12,6 +12,7 @@ const Nav = () => {
         <>
             <div className='navBar'>
                 <img src={Trofeu} className='logoImg' />
+                <h3 className='logo'>WIN</h3>
                 <Link to='/' className='navLink'>Home</Link>
                 <Link to='/produtos' className='navLink'>Produtos</Link>
                 <Link to='/contato' className='navLink'>Contato</Link>

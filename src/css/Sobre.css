@@ -1,0 +1,10 @@
+.sobre {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 20vh;
+    width: 100%;
+    min-height: 90vh;
+    background-color: var(--color1);
+}

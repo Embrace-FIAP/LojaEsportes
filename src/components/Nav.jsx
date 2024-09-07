@@ -15,6 +15,7 @@ const Nav = () => {
                 {/* <h3 className='logo'>WIN</h3> */}
                 <Link to='/' className='navLink'>Home</Link>
                 <Link to='/produtos' className='navLink'>Produtos</Link>
+                <Link to='/sobre' className='navLink'>Sobre</Link>
                 <Link to='/contato' className='navLink'>Contato</Link>
                 <div className='searchBox'>
                     <img src={Lupa} className='searchImg' />

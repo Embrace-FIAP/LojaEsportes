@@ -12,10 +12,10 @@ const Produtos = () => {
     return (
         <div className='produtos'>
 
-            <h1 className='sectionHeading'>Produtos</h1>
+            <h1 className='sectionHeading'>Produtos WIN</h1>
 
             <div className='cardSection'>
-                <Link to='/sobre' >
+                <Link>
                     <div className='card'>
                         <img src={Tenis1} className='cardImg' />
                         <p className='cardTitle'>Nike Winflo 10 Branco</p>
@@ -23,7 +23,7 @@ const Produtos = () => {
                         <p className='cardPrice'>R$531,99</p>
                     </div>
                 </Link>
-                <Link to='/sobre'>
+                <Link>
                     <div className='card'>
                         <img src={Tenis2} className='cardImg' />
                         <p className='cardTitle'>Nike Air Pegasus 40 Premium</p>
@@ -31,7 +31,7 @@ const Produtos = () => {
                         <p className='cardPrice'>R$940,49</p>
                     </div>
                 </Link>
-                <Link to='/sobre'>
+                <Link>
                     <div className='card'>
                         <img src={Tenis3} className='cardImg' />
                         <p className='cardTitle'>Nike Winflo 10 Preto</p>
@@ -42,7 +42,7 @@ const Produtos = () => {
             </div>
 
             <div className='cardSection'>
-                <Link to='/sobre'>
+                <Link>
                     <div className='card2'>
                         <img src={Bolsa} className='cardImg' />
                         <p className='cardTitle2'>Bolsa Nike Brasilia</p>
@@ -50,7 +50,7 @@ const Produtos = () => {
                         <p className='cardPrice2'>R$237,49</p>
                     </div>
                 </Link>
-                <Link to='/sobre'>
+                <Link>
                     <div className='card2'>
                         <img src={Tenis4} className='cardImg' />
                         <p className='cardTitle2'>Nike In-Season TR 13</p>
@@ -58,7 +58,7 @@ const Produtos = () => {
                         <p className='cardPrice2'>R$417,99,00</p>
                     </div>
                 </Link>
-                <Link to='/sobre'>
+                <Link>
                     <div className='card2'>
                         <img src={Meias} className='cardImg' />
                         <p className='cardTitle2'>Meia Nike Multiplier</p>

@@ -8,3 +8,31 @@
     min-height: 90vh;
     background-color: var(--color1);
 }
+
+.sobreSection {
+    width: 60%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading1 {
+    font-weight: 800;
+    font-size: 64px;
+    margin-bottom: 5vh;
+}
+
+.heading3 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.sobreImg {
+    margin-bottom: 6vh;
+    width: 100%;
+}

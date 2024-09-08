@@ -1,0 +1,38 @@
+.contato {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 20vh;
+    width: 100%;
+    min-height: 90vh;
+    background-color: var(--color1);
+}
+
+.contatoSection {
+    width: 60%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading1 {
+    font-weight: 800;
+    font-size: 64px;
+    margin-bottom: 5vh;
+}
+
+.heading3 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.text {
+    font-size: 20px;
+    margin-bottom: 5vh;
+}
+
+span {
+    font-weight: 700;
+}

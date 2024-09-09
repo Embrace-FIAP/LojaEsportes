@@ -30,9 +30,46 @@
 
 .text {
     font-size: 20px;
-    margin-bottom: 5vh;
+    margin-bottom: 3vh;
+}
+
+.text2 {
+    font-size: 20px;
+    margin-top: 7vh;
+    margin-bottom: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.text3 {
+    font-size: 20px;
+    margin-top: 7vh;
+    margin-bottom: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 span {
     font-weight: 700;
+}
+
+.contatoImg {
+    width: 100%;
+    margin-bottom: 10vh;
+}
+
+.youtubeImg {
+    width: 44px;
+}
+
+.instagramImg {
+    width: 38px;
+}
+
+.whatsappImg {
+    width: 38px;
 }

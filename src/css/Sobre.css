@@ -10,7 +10,7 @@
 }
 
 .sobreSection {
-    width: 70%;
+    width: 90%;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -28,15 +28,16 @@
     font-size: 23px;
 }
 
-.text {
-    width: 80%;
-    font-size: 20px;
+.sobreText {
+    width: 60%;
+    font-size: 22px;
     color: var(--font-color2);
+    margin-bottom: 10vh;
 }
 
-.text2 {
-    width: 80%;
-    font-size: 20px;
+.sobreText2 {
+    width: 60%;
+    font-size: 22px;
     color: var(--font-color2);
     margin-bottom: 15vh;
 }

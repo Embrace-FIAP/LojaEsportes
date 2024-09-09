@@ -47,17 +47,17 @@ video {
     padding-bottom: 40vh;
 }
 
-.heading1 {
+.homeHeading1 {
     font-weight: 800;
     font-size: 64px;
 }
 
-.heading3 {
+.homeHeading3 {
     font-weight: 600;
     font-size: 30px;
 }
 
-.text {
+.textHome {
     font-size: 20px;
 }
 

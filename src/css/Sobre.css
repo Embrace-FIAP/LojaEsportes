@@ -10,29 +10,42 @@
 }
 
 .sobreSection {
-    width: 60%;
+    width: 70%;
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.heading1 {
+.sobreHeading1 {
     font-weight: 800;
-    font-size: 64px;
+    font-size: 68px;
     margin-bottom: 5vh;
 }
 
-.heading3 {
+.sobreHeading3 {
     font-weight: 600;
-    font-size: 24px;
+    font-size: 23px;
 }
 
 .text {
+    width: 80%;
     font-size: 20px;
+    color: var(--font-color2);
+}
+
+.text2 {
+    width: 80%;
+    font-size: 20px;
+    color: var(--font-color2);
+    margin-bottom: 15vh;
 }
 
 .sobreImg {
     margin-bottom: 6vh;
     width: 100%;
+}
+
+span {
+    font-weight: 700;
 }

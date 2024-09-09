@@ -17,9 +17,9 @@ const Home = () => {
                 </div>
             </div>
             <div className='homeUnder'>
-                <h3 className='heading3'>WIN Running</h3>
-                <h1 className='heading1'>Vencer não é Confortável</h1>
-                <p className='text'>Se você não odeia correr um pouco, você não ama correr o suficiente.</p>
+                <h3 className='homeHeading3'>WIN Running</h3>
+                <h1 className='homeHeading1'>Vencer não é Confortável</h1>
+                <p className='textHome'>Se você não odeia correr um pouco, você não ama correr o suficiente.</p>
                 <Link to='/produtos'>
                     <button className='btnColecao'>
                         Ver Coleção
@@ -29,9 +29,9 @@ const Home = () => {
 
                 <div className='line'></div>
 
-                <h3 className='heading3'>WIN Boxing</h3>
-                <h1 className='heading1'>A Nobre Arte</h1>
-                <p className='text'>Viver significa lutar.</p>
+                <h3 className='homeHeading3'>WIN Boxing</h3>
+                <h1 className='homeHeading1'>A Nobre Arte</h1>
+                <p className='textHome'>Viver significa lutar.</p>
                 <Link to='/produtos'>
                     <button className='btnColecao'>
                         Ver Coleção
